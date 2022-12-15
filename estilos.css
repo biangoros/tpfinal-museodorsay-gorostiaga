@@ -1,0 +1,252 @@
+/*Nav*/
+.navbar {
+    font-family: 'League Spartan', sans-serif;
+    background-color: #1A2440;
+}
+
+.navboton {
+    margin: 1%;
+    transition: 0.4s;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.navboton:hover {
+    transition: 0.3s;
+    color: #3C4651;
+    background-color: #e9d167;
+}
+
+.navbar-brand {
+    color: #e9d167;
+    transition: 0.3s;
+    font-family: 'Libre Bodoni';
+    font-weight: 400;
+}
+
+.navbar-brand:hover {
+    transition: 0.3s;
+    color: #ffff;
+
+
+}
+
+/* fin nav*/
+
+/*header*/
+
+.h1header {
+    font-family: 'Libre Bodoni', serif;
+    color: #e9d167;
+    font-weight: bolder;
+
+}
+
+.pheader {
+    color: #d3c68e;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.btn-green-c {
+    background-color: #d3c68e;
+    border: 3px solid #e9d167 !important;
+    color: #FFFEF6;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-green-c:hover {
+    background-color: transparent;
+    color: #e9d167;
+}
+
+/*fin header*/
+
+/*intro*/
+#intro {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1923' height='644' preserveAspectRatio='none' viewBox='0 0 1923 644'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1154%26quot%3b)' fill='none'%3e%3cpath d='M1422.96 153.68 a118.85 118.85 0 1 0 237.7 0 a118.85 118.85 0 1 0 -237.7 0z' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M424.69 507.8 a109.61 109.61 0 1 0 219.22 0 a109.61 109.61 0 1 0 -219.22 0z' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M703.85 363.69 a167.13 167.13 0 1 0 334.26 0 a167.13 167.13 0 1 0 -334.26 0z' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1597.968%2c197.382C1616.536%2c198.449%2c1637.314%2c196.163%2c1647.178%2c180.395C1657.464%2c163.952%2c1652.027%2c143.168%2c1642.424%2c126.317C1632.706%2c109.266%2c1617.571%2c95.003%2c1597.968%2c94.046C1576.761%2c93.011%2c1554.737%2c102.556%2c1545.299%2c121.575C1536.551%2c139.203%2c1546.442%2c159.089%2c1557.67%2c175.25C1567.042%2c188.74%2c1581.569%2c196.439%2c1597.968%2c197.382' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M584.86 155.55 a171.21 171.21 0 1 0 342.42 0 a171.21 171.21 0 1 0 -342.42 0z' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M482.148%2c338.492C526.396%2c340.748%2c567.991%2c312.415%2c587.107%2c272.446C604.212%2c236.681%2c584.926%2c198.276%2c565.822%2c163.538C545.659%2c126.875%2c523.965%2c83.049%2c482.148%2c81.592C438.928%2c80.086%2c406.618%2c118.431%2c387.724%2c157.331C371.26%2c191.228%2c376.807%2c229.193%2c394.225%2c262.61C413.403%2c299.405%2c440.709%2c336.379%2c482.148%2c338.492' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M741.5 219.75 a170.55 170.55 0 1 0 341.1 0 a170.55 170.55 0 1 0 -341.1 0z' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1827.32%2c475.403C1893.306%2c472.876%2c1940.524%2c418.592%2c1972.224%2c360.664C2002.381%2c305.555%2c2015.091%2c241.066%2c1986.034%2c185.369C1954.816%2c125.531%2c1894.748%2c79.968%2c1827.32%2c82.909C1763.56%2c85.69%2c1722.564%2c142.829%2c1690.903%2c198.243C1659.583%2c253.059%2c1633.951%2c315.904%2c1661.831%2c372.548C1692.572%2c435.005%2c1757.759%2c478.066%2c1827.32%2c475.403' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-8.841%2c385.076C7.78%2c384.527%2c17.643%2c368.63%2c26.077%2c354.297C34.691%2c339.659%2c44.069%2c323.159%2c36.56%2c307.924C28.414%2c291.397%2c9.583%2c283.178%2c-8.841%2c283.455C-26.783%2c283.725%2c-43.479%2c293.43%2c-51.934%2c309.257C-59.955%2c324.272%2c-56.406%2c341.942%2c-47.994%2c356.742C-39.462%2c371.754%2c-26.099%2c385.646%2c-8.841%2c385.076' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M324.463%2c644.787C344.007%2c644.895%2c362.79%2c634.05%2c371.242%2c616.428C378.851%2c600.564%2c369.746%2c583.59%2c361.19%2c568.216C352.274%2c552.196%2c342.797%2c532.462%2c324.463%2c532.373C306.058%2c532.284%2c295.976%2c551.726%2c287.115%2c567.857C278.719%2c583.142%2c270.955%2c600.228%2c278.571%2c615.916C287.031%2c633.341%2c305.093%2c644.68%2c324.463%2c644.787' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M656.104%2c313.39C682.358%2c313.09%2c709.653%2c304.571%2c722.362%2c281.596C734.767%2c259.171%2c726.149%2c232.492%2c713.038%2c210.471C700.304%2c189.083%2c680.993%2c169.916%2c656.104%2c170.307C631.711%2c170.69%2c614.906%2c191.395%2c602.188%2c212.213C588.685%2c234.316%2c574.991%2c260.281%2c587.172%2c283.139C599.82%2c306.873%2c629.212%2c313.697%2c656.104%2c313.39' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M685.76 362.83 a141.38 141.38 0 1 0 282.76 0 a141.38 141.38 0 1 0 -282.76 0z' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1740.171%2c418.869C1762.863%2c418.368%2c1783.657%2c408.25%2c1796.54%2c389.563C1811.719%2c367.546%2c1823.48%2c339.777%2c1811.006%2c316.122C1797.951%2c291.366%2c1768.157%2c282.911%2c1740.171%2c282.67C1711.672%2c282.425%2c1681.04%2c289.974%2c1667.194%2c314.885C1653.619%2c339.309%2c1663.266%2c369.28%2c1679.318%2c392.152C1692.958%2c411.587%2c1716.433%2c419.393%2c1740.171%2c418.869' fill='rgba(230%2c 223%2c 215%2c 0.37)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1154'%3e%3crect width='1923' height='644' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.h1intro {
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #3C4651;
+}
+
+.pintro {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #3C4651;
+}
+
+/*fin intro*/
+
+/*pastillas / actividades*/
+
+#actividades {
+    background-color: #ECEFEE;
+}
+
+.artcol {
+    font-family: 'Libre Bodoni';
+    color: #3C4651;
+}
+
+.artistas {
+    font-family: 'Libre Bodoni';
+    font-style: italic;
+    font-weight: 200;
+    color: #3C4651;
+}
+
+.partistas {
+    font-family: 'Quicksand';
+    color: #7D8EA2;
+
+}
+
+.card {
+    background-color: transparent !important;
+    border: transparent !important;
+    ;
+}
+
+
+.icon-link {
+    color: #7D8EA2;
+
+}
+
+/*fin pas/act*/
+
+/*galeira*/
+
+.pgaleria {
+    color: #ECEFEE;
+    font-family: 'Quicksand';
+
+}
+
+.h3galeria {
+    font-family: 'Libre Bodoni', serif;
+    font-style: italic;
+    color: #e9d167;
+
+}
+
+/*fin galeria*/
+
+
+/*testimonios*/
+#testimonios {
+    background-color: #ECEFEE;
+}
+
+/*fin testimonios*/
+
+
+/*footer*/
+.btn {
+    background-color: #d3c68e;
+    border: 3px solid #e9d167 !important;
+    color: #FFFEF6;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #e9d167;
+}
+
+.form-control {
+    background-color: transparent !important;
+}
+
+
+/*fin footer*/
+
+
+
+
+/*quienes somos*/
+.h2info {
+    font-family: 'Libre Bodoni', serif;
+    font-style: italic;
+    color: #e9d167;
+}
+
+.pinfo {
+    font-family: 'Quicksand';
+    color: #7D8EA2;
+}
+
+/*fin quienes*/
+
+
+/*contacto*/
+#mapa {
+    background-image: url(img/contacto/World\ Map.svg);
+}
+
+/*fin contacto*/
+
+
+
+
+/*artistas*/
+
+.card-text {
+    font-family: 'Quicksand';
+    color: #7D8EA2;
+
+}
+
+.card-title {
+    font-family: 'Libre Bodoni', serif;
+    color: #e9d167;
+
+}
+
+/*fin artistas*/
+
+/*merch*/
+.titulo-t {
+    font-family: 'Libre Bodoni', serif;
+    font-style: italic;
+    color: #e9d167;
+
+}
+
+.mercht{  font-family: 'Quicksand';
+    color: #7D8EA2;
+
+}
+
+#proximamente {
+    background-color: #3C4651;
+
+
+}
+
+
+.merch-prox{ 
+    font-style: italic;
+    color: #e9d167;
+
+}
+
+
+.textmerch{
+    font-family: 'Quicksand';
+    color: #ECEFEE;
+}
+/*fin merch*/
